@@ -22,22 +22,24 @@
 	MolPrep is available as a precompiled executable for both Linux and Windows. No manual dependency installation is required.
 
 	- Windows
+		1. Download MolPrep.exe.zip from the release page and extract the MolPrep.exe file.
 
-		1. Download MolPrep.exe from the release page.
+		2. Download MolPrep.exe from the release page.
 
-		2. Place the executable in a desired directory.
+		3. Place the executable in a desired directory.
 
-		3. Open a command prompt (cmd) and navigate to the directory.
+		4. Open a command prompt (cmd) and navigate to the directory.
 
-		4. Run MolPrep.exe --help to view available options.
+		5. Run MolPrep.exe --help to view available options.
 	
 	-Linux
+		1. Download MolPrep__bin__.zip from the release page and extract the MolPrep linux binary.
 
-		1. Download MolPrep (Linux executable) from the release page.
+		2. Download MolPrep (Linux executable) from the release page.
 
-		2. Grant execution permissions: $ chmod +x MolPrep
+		3. Grant execution permissions: $ chmod +x MolPrep
 
-		3. Run: ./MolPrep --help to view available options.
+		4. Run: ./MolPrep --help to view available options.
 
 # Example Usage
 	- Windows: MolPrep.exe --input Sample_input_diverse.sdf --output optimized_molecules.sdf --optimize --ncpu 4 --forcefield mmff94 --maxstep 300 --nonbondedthreshold 50.0
